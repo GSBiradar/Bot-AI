@@ -49,7 +49,7 @@ function fetchChatGPTResponse(message) {
         })
         .catch(error => {
             console.error("Error:", error);
-            displayMessage("Failed to connect to the AI server.", 'bot-message');
+            displayMessage("Failed to connect to the ESP32 server.", 'bot-message');
         });
 }
 
