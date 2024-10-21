@@ -83,7 +83,7 @@ async function fetchResponse(data) {
 // Voice Recognition Function
 function startVoiceRecognition() {
     const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-    recognition.lang = "en-IN"; // Set the recognition language
+    recognition.lang = "kn-IN"; // Set the recognition language
     recognition.interimResults = false;
     recognition.maxAlternatives = 1;
 
@@ -104,6 +104,6 @@ function startVoiceRecognition() {
 function speakOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
     speech.text = message;
-    speech.lang = "en-IN"; // Set language for speech synthesis
+    speech.lang = "kn-IN"; // Set language for speech synthesis
     window.speechSynthesis.speak(speech);
 }
