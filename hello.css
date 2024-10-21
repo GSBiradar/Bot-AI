@@ -12,7 +12,7 @@ body {
 /* Chat Container */
 .chat-container {
     background: linear-gradient(145deg, #1a1a1a, #2b2b2b); /* Dark gradient */
-    width: 700px;
+    width: 900px;
     max-width: 90%; /* Responsive width */
     padding: auto;
     border-radius: 13px;
