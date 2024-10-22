@@ -34,7 +34,7 @@ function fetchChatGPTResponse(message) {
         ],
         //max_tokens: 100, // Set a reasonable upper limit
         temperature: 1,// Set temperature to control randomness
-        max_tokens: 100,
+        max_tokens: 40,
         
 
     };
