@@ -104,6 +104,6 @@ function startVoiceRecognition() {
 function speakOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
     speech.text = message;
-    speech.lang = kn-IN"; // Set language for speech synthesis
+    speech.lang = "kn-IN"; // Set language for speech synthesis
     window.speechSynthesis.speak(speech);
 }
