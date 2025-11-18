@@ -2,7 +2,7 @@ document.getElementById('sendBtn').addEventListener('click', sendMessage);
 document.getElementById('voiceBtn').addEventListener('click', startVoiceRecognition);
 
 const groqEndpoint = "https://api.groq.com/openai/v1/chat/completions";
-const apiKey = "gsk_mEiwHRB5wwYQnxRHnSeKWGdyb3FYpSpxLS1McboPQM6vQfLZxap";
+const apiKey = "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";
 const minTokens = 20; // Minimum tokens to ensure a substantial response
 
 function sendMessage() {
@@ -107,3 +107,4 @@ function speakOutLoud(message) {
     speech.lang = "en-US"; // Set language for speech synthesis
     window.speechSynthesis.speak(speech);
 }
+
